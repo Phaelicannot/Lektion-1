@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(25, 37, 65);
+
+}
+
+h1 {
+    font-size: 72px;
+    font-variant: small-caps;
+    font-stretch: wider;
+    text-align: center;
+    text-shadow: 20px;
+
+    color: rgb(189, 236, 240);
+}
+
+
+.intro-p {
+     font-size: 15px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: rgb(199, 244, 255);
+}
+
+
+.second-p {
+   font-size: 20px;
+   place-items: center;
+   text-align: center;
+   width: 400px;
+   color: aliceblue;
+   margin: auto;
+   margin-top: 150px;
+   background-color: rgba(127, 168, 255, 0.34);
+   border : 2px solid rgb(134, 189, 241);
+   height: 70px;
+}
+
+.second-p:hover span {
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    width: 400px;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(127, 168, 255, 0.34);
+    border : 2px dotted rgb(134, 189, 241);
+    height: 70px;
+    display: none;
+    
+}
+
+/*.second-p:hover span {
+    display: none
+}*/
+
+.second-p:hover:before {
+    content: "Nej, klicka inte på mig tack";
+    place-items: center;
+}
+
+
+a {
+    color: rgb(142, 162, 191);
+}
+
+a:hover {
+    color:azure
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.column {
+    text-align: center;
+    background-color: rgba(127, 168, 255, 0.34);
+    width: 200px;
+    height: 110px;
+    margin: auto;
+    border : 2px solid rgb(134, 189, 241);
+}
+
+.column2 {
+    text-align: center;
+    background-color: rgba(127, 168, 255, 0.34);
+    width: 200px;
+    height: 110px;
+    margin: auto;
+    border : 2px solid rgb(134, 189, 241);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.gallery img {
+    width: 100%;
+}
